@@ -1,10 +1,12 @@
 // simple controller routes
 var express = require('express');
 var router = express.Router();
+var augurService = require("../services/augurService");
 
 // get /api/simple/
 router.get('/',(req,res) => {
   res.send('GET response');
+  augurService.
 });
 
 // post /api/simple/
